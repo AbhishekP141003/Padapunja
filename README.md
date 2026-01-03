@@ -2,6 +2,8 @@
 
 A web application for translating and learning Kannada idioms with their meanings and usage examples.
 
+[![Deploy to PythonAnywhere](https://img.shields.io/badge/Deploy%20to-PythonAnywhere-blue)](DEPLOYMENT.md)
+
 ## Features
 
 - 🔍 Search and translate Kannada idioms
@@ -116,16 +118,31 @@ Padapunja/
 
 ## Deployment
 
-This application can be deployed on platforms like:
-- Render
-- Heroku
-- Railway
-- PythonAnywhere
+### Deploy to PythonAnywhere (Recommended - Free!)
 
-Make sure to:
-- Set all environment variables on your hosting platform
-- Use a production-ready database (not local MySQL)
-- Configure SMTP settings for email functionality
+This application is ready to deploy to **PythonAnywhere** with MySQL support!
+
+📖 **[Complete Deployment Guide](DEPLOYMENT.md)** - Step-by-step instructions
+
+**Why PythonAnywhere?**
+- ✅ Free tier with no credit card required
+- ✅ MySQL database included (no migration needed!)
+- ✅ Always-on (no cold starts)
+- ✅ Easy setup for Flask apps
+
+**Quick Start:**
+1. Sign up at [PythonAnywhere](https://www.pythonanywhere.com)
+2. Follow the [deployment guide](DEPLOYMENT.md)
+3. Your app will be live at `https://YOUR_USERNAME.pythonanywhere.com`
+
+### Other Platforms
+
+This application can also be deployed on:
+- **Render** (requires PostgreSQL migration)
+- **Railway** (supports MySQL, $5/month credit)
+- **Heroku** (paid plans only)
+
+For PythonAnywhere deployment, see [DEPLOYMENT.md](DEPLOYMENT.md) for complete instructions.
 
 ## Environment Variables
 
