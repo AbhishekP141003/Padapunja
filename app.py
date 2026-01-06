@@ -1,4 +1,5 @@
 # app.py
+from SourceCode import app
 from flask import Flask
 from flask_cors import CORS
 from extensions import db
